@@ -1,0 +1,63 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.6;
+  color: rgb(39, 189, 216);
+  background-color: bisque;
+  padding: 10px;
+}
+
+
+.header {
+  text-align: center;
+  background: #07bba3;
+  color: RED;
+  padding: 20px 0;
+}
+
+
+.nav-bar {
+  display: flex;
+  justify-content: center;
+  
+  background:bisque;
+  padding: 10px;
+}
+
+.section {
+  margin: 20px 0;
+  padding: 20px;
+  background: rgb(137, 18, 173);
+
+}
+
+.section h2 {
+  margin-bottom: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin: 10px 0 5px;
+}
+
+
+form button {
+  background: #0073e6;
+  height: 30px;
+  width: 80px;
+  color: white;
+
+  justify-content: center;
+}
+
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+  color: #810967;
+}
+
